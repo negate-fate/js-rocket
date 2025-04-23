@@ -31,3 +31,22 @@ var area = function (width, height) {
 var fullname = function (firstname, secondname) {
 	return firstname + " " + secondname;
 }
+
+// the if-else statement (lesson 9)
+
+var name1 = "Rich";
+var name2 = "Bob";
+
+if (name1 == "Rich") {
+	alert("true 1!");
+} else if (name2 == "Rich") {
+	alert("true 2!");
+} else {
+	alert("false!");
+}
+
+if (name1 == "Rich" || name2 == "Rich") {
+	alert("true!");
+} else {
+	alert("false!");
+}
