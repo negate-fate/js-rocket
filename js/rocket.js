@@ -7,10 +7,12 @@ var changeState = function (state) {
 	countdownNumber = 10;
 	document.getElementById ('countdown').innerHTML = countdownNumber;
 
+	//abort
 	if (state == 1) {
-		// hide thoughts
-		document.getElementById('nervous').classname = 'nervous';
-		document.getElementById('cant-wait').classname = 'cant-wait';
+		// returning to state 1 because abort got clicked
+		// set the two thought bubbles to not appear
+		document.getElementById('nervous').className = 'nervous';
+		document.getElementById('cant-wait').className = 'cant-wait';
 	}
 
 	// countdown
